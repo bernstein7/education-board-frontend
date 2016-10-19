@@ -1,0 +1,21 @@
+{
+  "name": "board-frontend",
+  "version": "1.0.0",
+  "description": "Frontend part for educational project",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bernstein7/education-board-frontend.git"
+  },
+  "author": "Kuzminov Dmytro (http://github.com/bernstein7)",
+  "license": "MIT",
+  "homepage": "https://github.com/bernstein7/education-board-frontend",
+  "devDependencies": {
+    "style-loader": "^0.12.3",
+    "webpack": "^1.9.6",
+    "webpack-dev-server": "^1.8.2"
+  },
+  "dependencies": {}
+}

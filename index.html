@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hello Board</title>
+  <meta charset="utf-8">
+  <script src='build.js'></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div id="tasks">
+    <div class="col-xs-12">
+      <h1>Tasks board</h1>
+    </div>
+    <div class="col-xs-3" id="todo">
+      <h2>Pending</h2>
+    </div>
+    <div class="col-xs-3" id="inprogress">
+      <h2>In Progress</h2>
+    </div>
+    <div class="col-xs-3" id="done">
+      <h2>Done</h2>
+    </div>
+    <div class="col-xs-3" id="form-wrap">
+      <h2>Create new task</h2>
+
+      <div class="another-item">
+        <form role="form">
+          <div class="form-group">
+            <label for="title">Title</label>
+            <input name='title' type="text" class="form-control" placeholder="Title"/>
+            <label for="description">Description</label>
+            <textarea name='description' class="form-control" rows="3" placeholder="Description"></textarea>
+          </div>
+          <button type="submit" class="btn btn-default">Add task</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
